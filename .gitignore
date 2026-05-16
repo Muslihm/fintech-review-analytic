@@ -1,0 +1,39 @@
+# Data files (NEVER commit)
+data/
+*.csv
+*.db
+*.sqlite
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Outputs
+outputs/
+plots/
+*.png
+*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+config.ini
+secrets.json
